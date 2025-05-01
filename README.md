@@ -1,4 +1,4 @@
-# NcChallengeApp
+# NC Challenge App
 
 A simple Angular application that counts down to an event based on user input. The text size adjusts dynamically based on the content length.
 
