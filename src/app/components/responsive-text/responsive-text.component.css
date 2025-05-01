@@ -1,0 +1,9 @@
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+}

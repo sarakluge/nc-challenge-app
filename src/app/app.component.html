@@ -1,0 +1,26 @@
+<div class="container">
+  <app-responsive-text
+    class="event-title"
+    [text]="`Time to ${eventName}`"
+  ></app-responsive-text>
+  <app-responsive-text
+    class="countdown-text"
+    [text]="countdownText"
+  ></app-responsive-text>
+
+  <div class="input-container">
+    <app-input-field
+      [value]="eventName"
+      [type]="'text'"
+      [label]="'Title'"
+      (valueChange)="onEventNameChange($event)"
+    ></app-input-field>
+
+    <app-input-field
+      [value]="date"
+      [type]="'datetime-local'"
+      [label]="'Date'"
+      (valueChange)="onDateChange($event)"
+    ></app-input-field>
+  </div>
+</div>

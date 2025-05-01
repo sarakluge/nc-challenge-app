@@ -1,0 +1,35 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  box-sizing: border-box;
+  padding: 12px;
+  min-height: 100vh;
+}
+
+.event-title {
+  font-weight: 800;
+  color: #72035d;
+}
+
+.countdown-text {
+  font-weight: 400;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media (orientation: landscape) {
+  .input-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
